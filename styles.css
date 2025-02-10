@@ -1,5 +1,4 @@
 /* -------------------Pagina principal------------------------------ */
-/* Estilos generales */
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
@@ -8,8 +7,6 @@ body {
     color: #fff;
     text-align: center;
 }
-
-/* Encabezado */
 header {
     background: linear-gradient(90deg, #ff4500, #ff8c00);
     padding: 1.5rem 0;
@@ -25,7 +22,6 @@ h1 {
     font-size: 2rem;
 }
 
-/* Barra de navegación */
 nav {
     background: rgba(0, 0, 0, 0.8);
     padding: 10px;
@@ -61,7 +57,6 @@ nav ul li a:hover {
     color: #000;
 }
 
-/* Botón de modo oscuro */
 button {
     background: #222;
     color: white;
@@ -78,7 +73,6 @@ button:hover {
     color: black;
 }
 
-/* Sección destacada */
 .destacado {
     padding: 50px 20px;
     background: url('gaming-bg.jpg') no-repeat center center/cover;
@@ -91,7 +85,6 @@ button:hover {
     margin-bottom: 10px;
 }
 
-/* Artículos */
 .articulos {
     display: flex;
     flex-wrap: wrap;
@@ -159,9 +152,7 @@ a:hover {
     background: #ff8c00;
 }
 
-/* --------------------para la pagina de noticias---------------------- */
-
-/* Contenedor de noticias con grid */
+/* --------------------noticias---------------------- */
 .noticias {
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* 3 columnas */
@@ -171,7 +162,6 @@ a:hover {
     margin: auto;
 }
 
-/* Estilos de cada noticia */
 .noticia {
     background: #222;
     padding: 15px;
@@ -221,7 +211,7 @@ a:hover {
     text-decoration: underline;
 }
 
-/* ----------------pagina de videos ------------------- */
+/* ----------------videos ------------------- */
 .reviews {
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* 3 columnas */
@@ -261,9 +251,7 @@ a:hover {
 }
 
 
-/* ---------------pagina de contactos--------------- */
-
-/* Estilos para la sección de contacto */
+/* ---------------contactos--------------- */
 .contacto {
     max-width: 600px;
     margin: 50px auto;
@@ -312,8 +300,7 @@ button:hover {
     background: #e84118;
 }
 
-/* -----------------pagina lanzamientos-----------------------/*
-/* Estilos generales */
+/* -----------------lanzamientos-----------------------*/
 body {
     font-family: Arial, sans-serif;
     background-color: #1e1e1e;
@@ -323,7 +310,6 @@ body {
     text-align: center;
 }
 
-/* Estilos del header y la navegación */
 header {
     background-color: #333;
     padding: 15px;
@@ -356,7 +342,6 @@ nav ul li a:hover {
     color: #ffcc00;
 }
 
-/* Estilos de la sección de lanzamientos */
 .lanzamientos {
     padding: 40px 20px;
 }
@@ -367,8 +352,7 @@ nav ul li a:hover {
     color: #ffcc00;
 }
 
-/* Diseño en cuadrícula para los juegos */
-.grid-container {
+.contenedor {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 20px;
@@ -377,7 +361,6 @@ nav ul li a:hover {
     margin: 0 auto;
 }
 
-/* Estilos de cada tarjeta de juego */
 .juego {
     background-color: #2c2c2c;
     padding: 20px;
